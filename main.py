@@ -219,11 +219,11 @@ def add(_, message):
 @app.on_message((filters.command("чб", prefixes='.')) & filters.me)
 def pik(_, message):
 
-    photosCount = 11
+    photosCount = 94
     already = []
 
     try:
-        count = int(message.text.split('.пикчи ')[1])
+        count = int(message.text.split('.чб ')[1])
     except:
         count = None
 
@@ -246,7 +246,7 @@ def pik(_, message):
 @app.on_message((filters.command("щитпост", prefixes='.')) & filters.me)
 def pik(_, message):
 
-    photosCount = 77
+    photosCount = 82
     already = []
 
     try:
